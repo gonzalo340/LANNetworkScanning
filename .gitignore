@@ -1,4 +1,4 @@
 *.pyc
-*.default
+config.py
 *.bak
 webservice/

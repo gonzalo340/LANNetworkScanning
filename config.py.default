@@ -1,0 +1,6 @@
+class Config:
+	
+	token = 'TU_TOKEN'
+	
+	def getToken(self):
+		return self.token
