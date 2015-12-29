@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Configuracion de la red que se va a scanear
+network='192.168.0.1/24'
+
+if [ "$UID" -ne 0 ]
+  then echo "Debes tener privilegios root para este script."
+  exit
+fi
+
+echo ""
+echo "Scaneando la red."
+echo "Network: $network"
+echo "Por favor, espere un momento..."
+echo ""
+
+nmap -sP -oX tmp/out.xml $network > /dev/null
+./parser.py
+rm -f tmp/out.xml
