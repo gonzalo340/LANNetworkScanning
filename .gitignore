@@ -1,0 +1,4 @@
+*.pyc
+*.default
+*.bak
+webservice/
