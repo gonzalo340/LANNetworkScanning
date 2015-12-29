@@ -14,3 +14,10 @@ mv config.py.default config.py
 
 ### PASO 4: Configurar la variable 'token' en el archivo 'config.py' para poder conectar con el servidor.
 Para obtener un token y usar el webservice, por favor contactarme por este correo: gonzalo340@gmail.com
+
+## Ejecutar la aplicación
+
+### Para ejecutar la aplicación debes tener privilegios de usuario root.
+sudo ./scanner
+
+#### Si deseas cambiar la red a escanear, edita la variable network en el script 'scanner'.
