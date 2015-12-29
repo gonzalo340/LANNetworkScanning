@@ -7,10 +7,6 @@ import sys
 import httplib2
 import json
 
-# Url Admin: https://apirest-gfpsoft.rhcloud.com/admin/
-# User: gonzalo
-# Pass: Gonzalo340Admin
-
 # Token para poder hacer POST al servidor
 try:
 	from config import Config
